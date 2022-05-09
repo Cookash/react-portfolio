@@ -1,7 +1,7 @@
 import "../styles/Projects.css";
 
 export default function Projects() {
-    const [project, updateProjects]
+
   return (
     <div className="projects" id="projects">
       <h2 class="projects-section-header">My current projects</h2>
