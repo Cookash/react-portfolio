@@ -1,0 +1,8 @@
+.about {
+  min-height: 110vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--accent-color);
+}

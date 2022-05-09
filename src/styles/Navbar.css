@@ -1,0 +1,27 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  right: 0;
+  top: 0px;
+  background-color: var(--primary-color);
+}
+.navbar ul li {
+  cursor: pointer;
+  text-align: right;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-brand {
+  font-weight: lighter;
+}
+
+.nav-item {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-right: 20px;
+}
