@@ -6,12 +6,13 @@
 
 .projects-section-header {
   max-width: 640px;
+  margin: 0 auto;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 400px));
+  grid-gap: 2rem;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;

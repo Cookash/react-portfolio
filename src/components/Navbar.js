@@ -19,7 +19,7 @@ export default function Navbar() {
         </Link>
         </li>
         <li className="nav-item">
-        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={-50} duration={500}>
+        <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>
           Projects
         </Link>
         </li>

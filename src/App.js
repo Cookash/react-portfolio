@@ -1,5 +1,5 @@
 import './App.css';
-
+import './styles/Fonts.css'
 import Navbar from './components/Navbar';
 import Intro from './components/Intro';
 import About from './components/About';
@@ -9,14 +9,14 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="app container mw-100 px-0 mx-0">
+    <>
     <Navbar />
     <Intro />
     <About />
     <Projects />
     <Contact />
     <Footer/>
-    </div>
+    </>
   );
 }
 
